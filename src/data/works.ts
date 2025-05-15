@@ -58,7 +58,7 @@ professional-looking website quickly and efficiently`,
       },
       {
         name: 'Skills',
-        value: 'javascript, Next.js & Tailwind CSS',
+        value: 'javascript,NodeJs, Next.js & Tailwind CSS',
       },
       
     ],
@@ -122,7 +122,7 @@ professional-looking website quickly and efficiently`,
   //     },
   //     {
   //       name: 'Skills',
-  //       value: 'Typescript, Next.js & Tailwind CSS',
+  //       value: 'Typescript,, Next.js & Tailwind CSS',
   //     },
   //     {
   //       name: 'Current Version',
