@@ -3,6 +3,7 @@ import SectionTitle from '@/components/shared/SectionTitle';
 import { FiCoffee } from 'react-icons/fi';
 import { HiOutlineChartBar, HiOutlineFire, HiOutlineUsers } from 'react-icons/hi';
 import ProgressBar from '@/components/shared/ProgressBar';
+import Link from 'next/link';
 
 const AboutSection = () => {
   return (
@@ -15,7 +16,9 @@ const AboutSection = () => {
           <p className="text-justify">
             Hi, I am Aniket Kachhadiya, I am a Full stack Devloper. I work from Surat, Gujrat. I have  experience in building, designing, and customizing websites and mobile apps.
           </p>
-          <Button className="mt-5">Download CV</Button>
+          <Link href="/Aniket_Kachhadiya.pdf" download>
+            <Button className="mt-5">Download CV</Button>
+          </Link>
         </div>
 
         {/* Skills */}
