@@ -4,7 +4,11 @@ import React from 'react';
 import { FiDribbble, FiFacebook, FiGithub, FiInstagram, FiTwitter } from 'react-icons/fi';
 import Button from '@/components/form/Button';
 import HeroBackground from './HeroBackground';
-import Typed from 'react-typed';
+import dynamic from 'next/dynamic';
+
+const Typed = dynamic(() => import('react-typed').then(mod => mod.default), {
+  ssr: false,
+});
 
 const HeroSection = () => {
   return (
