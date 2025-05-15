@@ -4,11 +4,6 @@ import React from 'react';
 import { FiDribbble, FiFacebook, FiGithub, FiInstagram, FiTwitter } from 'react-icons/fi';
 import Button from '@/components/form/Button';
 import HeroBackground from './HeroBackground';
-import dynamic from 'next/dynamic';
-
-const Typed = dynamic(() => import('react-typed').then(mod => mod.default), {
-  ssr: false,
-});
 
 const HeroSection = () => {
   return (
@@ -20,15 +15,7 @@ const HeroSection = () => {
         </div>
         <h1 className="mt-4 text-3xl font-bold ">Aniket Kachhadiya</h1>
         <div className="mt-2 flex gap-1">
-          I'm a{' '}
-          <Typed
-            strings={['Full-stack Developer']}
-            typeSpeed={60}
-            backSpeed={30}
-            loop={true}
-            showCursor={true}
-            cursorChar="|"
-          />
+          I'm a Full-stack Developer
         </div>
         <div className="mt-4  flex gap-5">
           <Link href="https://www.instagram.com/aniket_201__/">
