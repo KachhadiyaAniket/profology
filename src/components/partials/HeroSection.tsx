@@ -26,7 +26,7 @@ const HeroSection = () => {
           />
         </div>
         <div className="mt-4  flex gap-5">
-          <Link href="https://www.instragram.com">
+          <Link href="https://www.instagram.com/aniket_201__/">
             <a className="text-gray-700 transition-colors duration-150 hover:text-primary-500">
               <FiInstagram size={25} />
             </a>
@@ -46,7 +46,7 @@ const HeroSection = () => {
               <FiDribbble size={25} />
             </a>
           </Link> */}
-          <Link href="https://gitlab.com/Aniketkachadiya">
+          <Link href="https://github.com/KachhadiyaAniket">
             <a className="text-gray-700 transition-colors duration-150 hover:text-primary-500">
               <FiGithub size={25} />
             </a>
