@@ -12,12 +12,13 @@
     "axios": "^0.27.2",
     "classnames": "^2.3.2",
     "next": "12.3.1",
+    "next-latest": "file:",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "react-icons": "^4.4.0",
     "react-scroll-to-top": "^3.0.0",
     "react-slick": "^0.29.0",
-    "ped": "^1.2.0",
+    "react-typed": "^2.0.1",
     "slick-carousel": "^1.8.1"
   },
   "devDependencies": {
