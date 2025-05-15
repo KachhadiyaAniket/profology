@@ -669,7 +669,7 @@ professional-looking website quickly and efficiently`,
     thumbnailUrl: '/images/works/hopeful1.png',
     description: `This system facilitates the process of donating Books, Clothes, and fundraising to the appropriate trust. By connecting with NGO, this system ensures that the donated items and funds reach the intended beneficiaries seamlessly and hassle-free. It streamlines the process of donating, and fund raising, and contributes towards building a reliable and effective framework for managing donations and resources.`,
     publishedAt: '01 aug 2024',
-    images: ['/images/works/hopeful1.png', '/images/works/hopefull2.png', '/images/works/hopefull5.png'],
+    images: ['/images/works/hopefull1.png', '/images/works/hopefull2.png', '/images/works/hopefull3.png'],
     previewUrl: 'https://hopefullhearts-ksung',
     featureList: [
       
