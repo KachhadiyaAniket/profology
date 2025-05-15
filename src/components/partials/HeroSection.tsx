@@ -16,13 +16,14 @@ const HeroSection = () => {
         </div>
         <h1 className="mt-4 text-3xl font-bold ">Aniket Kachhadiya</h1>
         <div className="mt-2 flex gap-1">
-          {' '}
           I'm a{' '}
           <Typed
-            strings={['Full-stack Devloper ']}
+            strings={['Full-stack Developer']}
             typeSpeed={60}
             backSpeed={30}
-            loop
+            loop={true}
+            showCursor={true}
+            cursorChar="|"
           />
         </div>
         <div className="mt-4  flex gap-5">
