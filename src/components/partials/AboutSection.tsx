@@ -16,7 +16,7 @@ const AboutSection = () => {
           <p className="text-justify">
             Hi, I am Aniket Kachhadiya, I am a Full stack Devloper. I work from Surat, Gujrat. I have  experience in building, designing, and customizing websites and mobile apps.
           </p>
-          <Link href="/Aniket_Kachhadiya.pdf" download>
+          <Link href="/AK_resume.pdf" download>
             <Button className="mt-5">Download CV</Button>
           </Link>
         </div>
